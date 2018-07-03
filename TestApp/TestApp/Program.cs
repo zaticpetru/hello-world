@@ -12,6 +12,7 @@ namespace TestApp
         {
             Console.Write("Hello World");
             Console.Write("\nMaster branch");
+            Console.Write("\n3_test_branch");
             Console.ReadKey();
         }
     }
