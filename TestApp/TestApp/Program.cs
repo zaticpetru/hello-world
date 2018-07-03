@@ -11,6 +11,8 @@ namespace TestApp
         static void Main(string[] args)
         {
             Console.Write("Hello World");
+            Console.Write("\nMaster branch");
+            Console.ReadKey();
         }
     }
 }
