@@ -10,9 +10,12 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello World");
-            Console.Write("\nMaster branch");
-            Console.Write("\n3_test_branch");
+            Human Ion = new Human("Vaaanea");
+            Human Alex = new Human("Alexx");
+
+            Ion.Sing();
+            Alex.Sing();
+
             Console.ReadKey();
         }
     }
