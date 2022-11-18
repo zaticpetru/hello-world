@@ -12,6 +12,8 @@ public class Class1
             where (num % 2) == 0
             select num;
 
+		var oddNumQuery = numbers.where(num => num % 2 == 1).toList();
+
         foreach (int num in numQuery)
         {
             Console.Write("{0,1} ", num);
